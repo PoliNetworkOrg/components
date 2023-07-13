@@ -5,6 +5,7 @@ import { Title } from "../Title"
 const meta = {
   title: "PoliNetwork/Title",
   component: Title,
+  tags: ["autodocs"],
   argTypes: {
     section: { control: "text" },
   },
