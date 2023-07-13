@@ -6,9 +6,11 @@
   "scripts": {
     "dev": "storybook dev -p 6006",
     "build-docs": "storybook build",
-    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "chromatic": "npx chromatic --project-token=chpt_b5f15eaef87b6e3 --build-script-name=build-docs"
   },
   "dependencies": {
+    "chromatic": "^6.19.9",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "sass": "^1.63.6"
@@ -38,5 +40,7 @@
     "storybook": "7.0.27",
     "typescript": "^5.0.2",
     "vite": "^4.4.3"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "@polinetwork/components@0.0.0"
 }
