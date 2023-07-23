@@ -3,9 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://polinetworkorg.github.io/components",
   "scripts": {
     "dev": "storybook dev -p 6006",
     "build-docs": "storybook build",
+    "predeploy": "pnpm run build-docs",
+    "deploy-storybook": "gh-pages -d storybook-static",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "chromatic": "npx chromatic --project-token=chpt_b5f15eaef87b6e3 --build-script-name=build-docs"
   },
@@ -35,6 +38,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.1",
     "eslint-plugin-storybook": "^0.6.12",
+    "gh-pages": "^5.0.0",
     "prettier": "^3.0.0",
     "prop-types": "15.8.1",
     "storybook": "7.0.27",
