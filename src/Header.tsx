@@ -1,6 +1,6 @@
 import { FC } from "react"
 import { Title, TitleProps } from "./Title"
-import themeIcon from "./assets/theme.svg"
+import ThemeIcon from "./assets/theme.svg"
 import "./Header.scss"
 
 /**
@@ -10,7 +10,7 @@ export const Header: FC<TitleProps> = props => {
   return (
     <div className="polinetwork-header">
       <Title onPress={props.onPress} section={props.section} />
-      <img draggable={false} src={themeIcon} />
+      <ThemeIcon />
     </div>
   )
 }

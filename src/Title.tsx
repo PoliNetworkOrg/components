@@ -1,5 +1,5 @@
 import { FC } from "react"
-import logo from "./assets/logo.svg"
+import Logo from "./assets/logo.svg"
 import "./Title.scss"
 
 export interface TitleProps {
@@ -19,7 +19,7 @@ export interface TitleProps {
 export const Title: FC<TitleProps> = ({ section, onPress }) => {
   return (
     <div onClick={() => onPress?.()} className="polinetwork-title">
-      <img draggable={false} src={logo} />
+      <Logo />
       <span style={{ fontWeight: 700 }}>PoliNetwork</span>
       {section && <span style={{ fontWeight: 500 }}>{section}</span>}
     </div>
