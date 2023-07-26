@@ -2,7 +2,7 @@ import { FC } from "react"
 import logo from "./assets/logo.svg"
 import "./Title.scss"
 
-interface TitleProps {
+export interface TitleProps {
   /**
    * Callback for when the user clicks on the title
    */
