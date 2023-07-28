@@ -1,5 +1,5 @@
 import { FC } from "react"
-import Logo from "./assets/logo.svg"
+import { ReactComponent as Logo } from "./assets/logo.svg"
 import "./Title.scss"
 
 export interface TitleProps {
@@ -17,6 +17,7 @@ export interface TitleProps {
  * Main Title for top left corner
  */
 export const Title: FC<TitleProps> = ({ section, onPress }) => {
+  console.log(typeof Logo)
   return (
     <div onClick={() => onPress?.()} className="polinetwork-title">
       <Logo />

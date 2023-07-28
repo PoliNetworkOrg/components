@@ -1,6 +1,6 @@
 import { FC } from "react"
 import { Title, TitleProps } from "./Title"
-import ThemeIcon from "./assets/theme.svg"
+import { ReactComponent as ThemeIcon } from "./assets/theme.svg"
 import "./Header.scss"
 
 /**
