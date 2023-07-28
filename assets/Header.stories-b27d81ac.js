@@ -1,0 +1,8 @@
+import{j as s}from"./jsx-runtime-94f6e698.js";import{T as m}from"./Title-7fe50a64.js";import{r as a}from"./index-8db94870.js";import"./_commonjsHelpers-042e6b4d.js";const u=e=>a.createElement("svg",{xmlns:"http://www.w3.org/2000/svg",width:20,height:20,viewBox:"0 0 20 20",fill:"none",...e},a.createElement("path",{stroke:"#000",strokeLinecap:"round",strokeLinejoin:"round",strokeWidth:1.5,d:"M10 1a6.364 6.364 0 0 0 9 9 9 9 0 1 1-9-9Z"}));const o=e=>s.jsxs("div",{className:"polinetwork-header",children:[s.jsx(m,{onPress:e.onPress,section:e.section}),s.jsx(u,{})]});try{o.displayName="Header",o.__docgenInfo={description:"Header component for the upper bar with title and theme selector",displayName:"Header",props:{onPress:{defaultValue:null,description:"Callback for when the user clicks on the title",name:"onPress",required:!1,type:{name:"(() => void)"}},section:{defaultValue:null,description:"Optional section name, lower font weight",name:"section",required:!1,type:{name:"string"}}}}}catch{}const w={title:"PoliNetwork/Header",component:o,tags:["autodocs"],parameters:{layout:"fullscreen"},argTypes:{section:{control:"text"}}},r={args:{}},t={args:{section:"Rankings"}};var n,i,c;r.parameters={...r.parameters,docs:{...(n=r.parameters)==null?void 0:n.docs,source:{originalSource:`{
+  args: {}
+}`,...(c=(i=r.parameters)==null?void 0:i.docs)==null?void 0:c.source}}};var l,d,p;t.parameters={...t.parameters,docs:{...(l=t.parameters)==null?void 0:l.docs,source:{originalSource:`{
+  args: {
+    section: "Rankings"
+  }
+}`,...(p=(d=t.parameters)==null?void 0:d.docs)==null?void 0:p.source}}};const x=["plain","rankings"];export{x as __namedExportsOrder,w as default,r as plain,t as rankings};
+//# sourceMappingURL=Header.stories-b27d81ac.js.map
