@@ -6173,7 +6173,7 @@ snapshots:
       '@types/find-cache-dir': 3.2.1
       '@yarnpkg/esbuild-plugin-pnp': 3.0.0-rc.15(esbuild@0.18.11)
       browser-assert: 1.2.1
-      ejs: 3.1.9
+      ejs: 3.1.10
       esbuild: 0.18.11
       esbuild-plugin-alias: 0.2.1
       express: 4.19.2
@@ -7636,7 +7636,10 @@ snapshots:
 
   ee-first@1.1.1: {}
 
-  ejs@3.1.9:
+  /ejs@3.1.10:
+    resolution: {integrity: sha512-UeJmFfOrAQS8OJWPZ4qtgHyWExa088/MtK5UEyoJGFH67cDEXkZSviOiKRCZ4Xij0zxI3JECgYs3oKx+AizQBA==}
+    engines: {node: '>=0.10.0'}
+    hasBin: true
     dependencies:
       jake: 10.8.7
 
