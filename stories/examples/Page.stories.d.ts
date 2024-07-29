@@ -1,8 +1,8 @@
-/// <reference types="react" />
-import type { StoryObj } from '@storybook/react';
+import { StoryObj } from '@storybook/react';
+
 declare const meta: {
     title: string;
-    component: import("react").FC<{}>;
+    component: import('react').FC<{}>;
     parameters: {
         layout: string;
     };
