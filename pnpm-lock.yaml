@@ -9464,7 +9464,7 @@ snapshots:
       progress: 2.0.3
       proxy-from-env: 1.1.0
       rimraf: 2.7.1
-      ws: 6.2.2
+      ws: 6.2.3
     transitivePeerDependencies:
       - bufferutil
       - supports-color
@@ -10367,7 +10367,16 @@ snapshots:
       imurmurhash: 0.1.4
       signal-exit: 3.0.7
 
-  ws@6.2.2:
+  /ws@6.2.3:
+    resolution: {integrity: sha512-jmTjYU0j60B+vHey6TfR3Z7RD61z/hmxBS3VMSGIrroOWXQEneK1zNuotOUrGyBHQj0yrpsLHPWtigEFd13ndA==}
+    peerDependencies:
+      bufferutil: ^4.0.1
+      utf-8-validate: ^5.0.2
+    peerDependenciesMeta:
+      bufferutil:
+        optional: true
+      utf-8-validate:
+        optional: true
     dependencies:
       async-limiter: 1.0.1
 
